@@ -1,0 +1,213 @@
+{
+    "manufacturer": "LG",
+    "supportedModels": [
+      "R09AWN",
+      "R24AWN",
+      "E09EK"
+    ],
+    "supportedController": "Tuya",
+    "commandsEncoding": "Tuya",
+    "minTemperature": 18,
+    "maxTemperature": 30,
+    "precision": 1,
+    "operationModes": [
+      "cool",
+      "dry",
+      "fan_only"
+    ],
+    "fanModes": [
+      "low",
+      "mid",
+      "high",
+      "auto"
+    ],
+    "commands": {
+      "off": "off",
+      "cool": {
+        "low": {
+          "18": "cool-low-18",
+          "19": "cool-low-19",
+          "20": "cool-low-20",
+          "21": "cool-low-21",
+          "22": "cool-low-22",
+          "23": "cool-low-23",
+          "24": "cool-low-24",
+          "25": "cool-low-25",
+          "26": "cool-low-26",
+          "27": "cool-low-27",
+          "28": "cool-low-28",
+          "29": "cool-low-29",
+          "30": "cool-low-30"
+        },
+        "mid": {
+          "18": "cool-mid-18",
+          "19": "cool-mid-19",
+          "20": "cool-mid-20",
+          "21": "cool-mid-21",
+          "22": "cool-mid-22",
+          "23": "cool-mid-23",
+          "24": "cool-mid-24",
+          "25": "cool-mid-25",
+          "26": "cool-mid-26",
+          "27": "cool-mid-27",
+          "28": "cool-mid-28",
+          "29": "cool-mid-29",
+          "30": "cool-mid-30"
+        },
+        "high": {
+          "18": "cool-high-18",
+          "19": "cool-high-19",
+          "20": "cool-high-20",
+          "21": "cool-high-21",
+          "22": "cool-high-22",
+          "23": "cool-high-23",
+          "24": "cool-high-24",
+          "25": "cool-high-25",
+          "26": "cool-high-26",
+          "27": "cool-high-27",
+          "28": "cool-high-28",
+          "29": "cool-high-29",
+          "30": "cool-high-30"
+        },
+        "auto": {
+          "18": "cool-auto-18",
+          "19": "cool-auto-19",
+          "20": "cool-auto-20",
+          "21": "cool-auto-21",
+          "22": "cool-auto-22",
+          "23": "cool-auto-23",
+          "24": "cool-auto-24",
+          "25": "cool-auto-25",
+          "26": "cool-auto-26",
+          "27": "cool-auto-27",
+          "28": "cool-auto-28",
+          "29": "cool-auto-29",
+          "30": "cool-auto-30"
+        }
+      },
+      "dry": {
+        "low": {
+          "18": "dry-low-18",
+          "19": "dry-low-19",
+          "20": "dry-low-20",
+          "21": "dry-low-21",
+          "22": "dry-low-22",
+          "23": "dry-low-23",
+          "24": "dry-low-24",
+          "25": "dry-low-25",
+          "26": "dry-low-26",
+          "27": "dry-low-27",
+          "28": "dry-low-28",
+          "29": "dry-low-29",
+          "30": "dry-low-30"
+        },
+        "mid": {
+          "18": "dry-mid-18",
+          "19": "dry-mid-19",
+          "20": "dry-mid-20",
+          "21": "dry-mid-21",
+          "22": "dry-mid-22",
+          "23": "dry-mid-23",
+          "24": "dry-mid-24",
+          "25": "dry-mid-25",
+          "26": "dry-mid-26",
+          "27": "dry-mid-27",
+          "28": "dry-mid-28",
+          "29": "dry-mid-29",
+          "30": "dry-mid-30"
+        },
+        "high": {
+          "18": "dry-high-18",
+          "19": "dry-high-19",
+          "20": "dry-high-20",
+          "21": "dry-high-21",
+          "22": "dry-high-22",
+          "23": "dry-high-23",
+          "24": "dry-high-24",
+          "25": "dry-high-25",
+          "26": "dry-high-26",
+          "27": "dry-high-27",
+          "28": "dry-high-28",
+          "29": "dry-high-29",
+          "30": "dry-high-30"
+        },
+        "auto": {
+          "18": "dry-auto-18",
+          "19": "dry-auto-19",
+          "20": "dry-auto-20",
+          "21": "dry-auto-21",
+          "22": "dry-auto-22",
+          "23": "dry-auto-23",
+          "24": "dry-auto-24",
+          "25": "dry-auto-25",
+          "26": "dry-auto-26",
+          "27": "dry-auto-27",
+          "28": "dry-auto-28",
+          "29": "dry-auto-29",
+          "30": "dry-auto-30"
+        }
+      },
+      "fan_only": {
+        "low": {
+          "18": "fan_only-low-18",
+          "19": "fan_only-low-19",
+          "20": "fan_only-low-20",
+          "21": "fan_only-low-21",
+          "22": "fan_only-low-22",
+          "23": "fan_only-low-23",
+          "24": "fan_only-low-24",
+          "25": "fan_only-low-25",
+          "26": "fan_only-low-26",
+          "27": "fan_only-low-27",
+          "28": "fan_only-low-28",
+          "29": "fan_only-low-29",
+          "30": "fan_only-low-30"
+        },
+        "mid": {
+          "18": "fan_only-mid-18",
+          "19": "fan_only-mid-19",
+          "20": "fan_only-mid-20",
+          "21": "fan_only-mid-21",
+          "22": "fan_only-mid-22",
+          "23": "fan_only-mid-23",
+          "24": "fan_only-mid-24",
+          "25": "fan_only-mid-25",
+          "26": "fan_only-mid-26",
+          "27": "fan_only-mid-27",
+          "28": "fan_only-mid-28",
+          "29": "fan_only-mid-29",
+          "30": "fan_only-mid-30"
+        },
+        "high": {
+          "18": "fan_only-high-18",
+          "19": "fan_only-high-19",
+          "20": "fan_only-high-20",
+          "21": "fan_only-high-21",
+          "22": "fan_only-high-22",
+          "23": "fan_only-high-23",
+          "24": "fan_only-high-24",
+          "25": "fan_only-high-25",
+          "26": "fan_only-high-26",
+          "27": "fan_only-high-27",
+          "28": "fan_only-high-28",
+          "29": "fan_only-high-29",
+          "30": "fan_only-high-30"
+        },
+        "auto": {
+          "18": "fan_only-auto-18",
+          "19": "fan_only-auto-19",
+          "20": "fan_only-auto-20",
+          "21": "fan_only-auto-21",
+          "22": "fan_only-auto-22",
+          "23": "fan_only-auto-23",
+          "24": "fan_only-auto-24",
+          "25": "fan_only-auto-25",
+          "26": "fan_only-auto-26",
+          "27": "fan_only-auto-27",
+          "28": "fan_only-auto-28",
+          "29": "fan_only-auto-29",
+          "30": "fan_only-auto-30"
+        }
+      }
+    }
+  }

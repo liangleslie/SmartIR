@@ -45,7 +45,12 @@ CONF_HUMIDITY_SENSOR = "humidity_sensor"
 CONF_POWER_SENSOR = "power_sensor"
 CONF_POWER_SENSOR_RESTORE_STATE = "power_sensor_restore_state"
 
-SUPPORT_FLAGS = ClimateEntityFeature.TARGET_TEMPERATURE | ClimateEntityFeature.FAN_MODE
+SUPPORT_FLAGS = (
+    ClimateEntityFeature.TURN_ON
+    | ClimateEntityFeature.TURN_OFF
+    | ClimateEntityFeature.TARGET_TEMPERATURE
+    | ClimateEntityFeature.FAN_MODE
+)
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
     {

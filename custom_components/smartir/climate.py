@@ -2,6 +2,7 @@ import asyncio
 import json
 import logging
 import os.path
+import aiofiles
 
 import voluptuous as vol
 
@@ -97,14 +98,15 @@ async def async_setup_platform(hass, config, async_add_entities, discovery_info=
             )
             return
 
-    with open(device_json_path) as j:
+    async with aiofiles.open(device_json_path) as j:
         try:
             _LOGGER.debug(f"loading json file {device_json_path}")
-            device_data = json.load(j)
+            content = await j.read()
+            device_data = json.loads(content)
             _LOGGER.debug(f"{device_json_path} file loaded")
         except Exception:
             _LOGGER.error("The device Json file is invalid")
-            return
+            return None
 
     async_add_entities([SmartIRClimate(hass, config, device_data)])
 
